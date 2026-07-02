@@ -1,24 +1,27 @@
-# Análisis de Inflación Argentina 2017-2023
+# Argentina Inflation Analysis (2017-2023)
 
-Análisis exploratorio (EDA) de la inflación mensual argentina usando datos del INDEC.
+Exploratory data analysis (EDA) of Argentina's monthly inflation using official INDEC data.
 
-## Herramientas
+## Tools
 - Python (pandas, matplotlib, seaborn)
-- Google Colab
+- Google Colab / Jupyter Notebook
 
-## Qué incluye
-- Limpieza y estructuración de datos
-- Serie temporal de inflación mensual
-- Comparación de promedios anuales
-- Inflación acumulada año a año
+## What's included
+- Data cleaning and structuring
+- Monthly inflation time series
+- Yearly average comparison
+- Year-over-year cumulative inflation
 
-## Principales hallazgos
-- La inflación mensual promedio del período fue de 4.3%
-- El mes de mayor inflación fue junio 2023 (12.8%)
-- 2023 fue el primer año en superar el 100% de inflación acumulada anual
-- Se observa una aceleración sostenida desde 2021
+## Key findings
+- Average monthly inflation for the period: 4.3%
+- Highest monthly inflation: June 2023 (12.8%)
+- 2023 was the first year to exceed 100% annual cumulative inflation
+- Sustained acceleration observed since 2021
 
-## Visualizaciones
-![Serie temporal](grafico1_serie_temporal.png)
-![Por año](grafico2_por_año.png)
-![Acumulada](grafico3_acumulada.png)
+## Visualizations
+![Time series](IMG_0486.png)
+![Yearly comparison](IMG_0487.png)
+![Cumulative inflation](IMG_0488.png)
+
+---
+*Análisis exploratorio de la inflación argentina con Python y pandas. Datos: INDEC.*
